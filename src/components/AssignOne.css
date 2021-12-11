@@ -1,0 +1,74 @@
+.one__body {
+  background: url(../images/background.jpg) ;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.one__nav{
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid red;
+  height: 5rem;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.nav__name {
+  border: 1px solid red;
+  height: 30px;
+  align-items: center;
+  background: whitesmoke;
+  border-radius: 10px;
+}
+
+.get__user {
+  border: 1px solid red;
+  border-radius: 10px;
+}
+.get__user > button {
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.user__details {
+  display: flex;
+  border: 2px solid black;
+  width: 500px;
+  border-radius: 30px;
+}
+
+.user__profile {
+  margin: 10px;
+}
+
+.user__profile > img {
+  object-fit: cover;
+  width: 200px;
+  height: 100%;
+  border-radius: 50%;
+  
+}
+
+.user__info {
+  margin: 10px;
+  border: 1px solid green;
+  background: white;
+  align-items: center;
+  line-height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.user__info > h3 {
+  font-size: 12px;
+}
